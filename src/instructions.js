@@ -8,7 +8,8 @@ export default function Instructions(props) {
         <li>if the same letter fill a row by itself or</li>,
         <li>a column or</li>,
         <li>the same letter is placed in a diagonal line</li>, 
-        <li>then the letter in question is the winner"</li>
+        <li>then the letter in question is the winner"</li>,
+        <li>good luck!</li>
      ])
     }
     return (
