@@ -1,0 +1,50 @@
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+  margin-right: 15px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #081329;
+  min-height: 20vh;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.game-btn {
+  width: 50px;
+  height: 50px;
+  margin: 4px;
+}
+.instructions {
+  display: block;
+}
+.instructions-container {
+  background: rgb(74, 74, 121);
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+}
