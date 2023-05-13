@@ -9,7 +9,8 @@ export default function Instructions(props) {
         <li>a column or</li>,
         <li>the same letter is placed in a diagonal line</li>, 
         <li>then the letter in question is the winner"</li>,
-        <li>good luck!</li>
+        <li>good luck world!</li>
+
      ])
     }
     return (
